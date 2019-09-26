@@ -9,7 +9,8 @@ The position parameter has the following valid items:-
 
 I thought when creating this component that it would give better notification on New-UDInputAction 
 E.G
-<br>
+
+```powershell
 Import-Module -Name UniversalDashboard.Community
 Import-Module UniversalDashboard.UDSweetAlert
 Get-UDDashboard | Stop-UDDashboard
@@ -34,3 +35,4 @@ Start-UDDashboard -Port 10005 -Dashboard (
         }
     } -EndpointInitialization $Endpoint
 )
+```
